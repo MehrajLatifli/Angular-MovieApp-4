@@ -1,0 +1,90 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "High Life",
+      "description": "High Life description",
+      "imageUrl": "../assets/Images/1.png",
+      "isPopular": true,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "billboard",
+      "description": "billboard description",
+      "imageUrl": "../assets/Images/2.png",
+      "isPopular": false,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "title": "Storm boy",
+      "description": "Storm boy description",
+      "imageUrl": "../assets/Images/3.png",
+      "isPopular": true,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "title": "I Kill Giants",
+      "description": "I Kill Giants description",
+      "imageUrl": "../assets/Images/4.jpg",
+      "isPopular": false,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "title": "Black Panther",
+      "description": "Black Panther description",
+      "imageUrl": "../assets/Images/5.jpg",
+      "isPopular": true,
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "title": "Ferdinant",
+      "description": "Ferdinant description",
+      "imageUrl": "../assets/Images/6.jpg",
+      "isPopular": false,
+      "categoryId": 1
+    },
+    {
+      "id": 7,
+      "title": "Jules Verne's 20000 leagues under the sea",
+      "description": "Jules Verne's 20000 leagues under the sea description",
+      "imageUrl": "../assets/Images/7.jpg",
+      "isPopular": true,
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "title": "Carmel Myers in a Broadway Scandal",
+      "description": "Carmel Myers in a Broadway Scandal description",
+      "imageUrl": "../assets/Images/8.jpg",
+      "isPopular": false,
+      "categoryId": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryname": "adventure"
+    },
+    {
+      "id": 2,
+      "categoryname": "romantic"
+    },
+    {
+      "id": 3,
+      "categoryname": "comedy"
+    },
+    {
+      "id": 4,
+      "categoryname": "sci-fi"
+    },
+    {
+      "id": 5,
+      "categoryname": "dram"
+    }
+  ]
+}

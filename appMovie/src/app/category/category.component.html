@@ -1,0 +1,7 @@
+<div class="list-group">
+
+  <a  [routerLink]="['/movies']" routerLinkActive="router-link-active" href="#" class="list-group-item list-group-item-action"  [class.active]="displayAll" (click)="selectCategory()">All Categories</a>
+
+  <a [routerLink]="['/movies/category',c.id]"  class="list-group-item list-group-item-action active" [class.active]="!displayAll && selectedcategory.id==c.id" *ngFor="let c of categories" (click)="selectCategory(c)"> {{c.categoryname}} </a>
+
+</div>
